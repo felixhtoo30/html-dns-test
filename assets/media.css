@@ -1,0 +1,125 @@
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  /* Single Detail */
+  .single-detail {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Nav */
+  .nav .nav__wrapper {
+    display: flex;
+    list-style: none;
+    padding-top: 0.4em;
+    justify-content: flex-end;
+  }
+
+  .nav .nav__wrapper .nav__item {
+    margin: auto 1.2em;
+    cursor: pointer;
+  }
+
+  /* Hero */
+  .hero {
+    height: 600px;
+  }
+
+  .hero .hero__wrapper .hero__title {
+    font-size: 2.4em;
+  }
+
+  .hero .hero__wrapper .hero__tagline {
+    font-size: 1.2em;
+  }
+
+  /* Partner */
+  .partner {
+    width: 76%;
+    margin: 4em auto;
+  }
+
+  .partner .partner__title {
+    font-size: 2em;
+    text-align: center;
+    margin: 2em auto;
+  }
+
+  /* Single Hero */
+  .single-hero {
+    height: 320px;
+  }
+
+  /* Single Detail */
+  .single-detail {
+    margin: 2.5em auto;
+  }
+
+  .single-detail .single-detail__wrapper .single-detail__item.reverse {
+    flex-flow: row-reverse;
+  }
+
+  .single-detail
+    .single-detail__wrapper
+    .single-detail__item
+    .single-detail__content {
+    width: 50%;
+  }
+
+  .single-detail
+    .single-detail__wrapper
+    .single-detail__item
+    .single-detail__img {
+    width: 50%;
+  }
+
+  .single-detail
+    .single-detail__wrapper
+    .single-detail__item
+    .single-detail__img
+    img {
+    width: 60%;
+    margin-right: 7%;
+    margin-right: auto;
+    object-fit: contain;
+  }
+
+  .single-detail
+    .single-detail__wrapper
+    .single-detail__item.reverse
+    .single-detail__img
+    img {
+    width: 60%;
+    margin-left: 7%;
+    margin-left: auto;
+    object-fit: contain;
+  }
+
+  .single-detail
+    .single-detail__wrapper
+    .single-detail__item
+    .single-detail__content
+    .single-detail__title {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .single-detail
+    .single-detail__wrapper
+    .single-detail__item
+    .single-detail__content
+    .single-detail__info {
+    font-size: 1em;
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .partner {
+    width: 58%;
+    margin: 2em auto;
+  }
+}

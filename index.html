@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNS Test</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/browse/normalize.css@8.0.1/normalize.css"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/custom.css" />
+    <link rel="stylesheet" href="./assets/media.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <section class="header__wrapper shadow-md">
+        <a class="header__logo" ref="index.html">
+          <img
+            src="./assets/images/dns_logo_sm.png"
+            alt="Dollar & Sense"
+            class="logo"
+          />
+        </a>
+        <div class="nav header__nav">
+          <div class="nav__menu off"><i class="bi bi-list"></i></div>
+          <ul class="nav__wrapper mobile shadow-xl">
+            <li class="nav__item">Payments</li>
+            <li class="nav__item">Remittance</li>
+            <li class="nav__item">Robo-advisors</li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <section class="hero">
+      <div class="hero__bg" style="background-image: url(./assets/images/dns_hero.jpg);"></div>
+      <div class="hero__wrapper">
+        <p class="hero__title">Let Your Payments Earn You Rewards</p>
+        <p class="hero__tagline">
+          Earn credit card rewards and airmiles for non-credit card spending
+        </p>
+      </div>
+    </section>
+    <section class="partner mx-auto">
+      <p class="partner__title">Our Partners</p>
+      <div class="partner__grid gap-5">
+        <a class="partner__grid-item col-span-2 shadow-md hover:shadow-xl">
+          <img src="./assets/images/partner-grabpay.jpg" alt="" />
+        </a>
+        <a class="partner__grid-item shadow-md hover:shadow-xl" href="single.html">
+          <img src="./assets/images/partner-cardup.jpg" alt="" />
+        </a>
+        <a class="partner__grid-item shadow-md hover:shadow-xl">
+          <img src="./assets/images/partner-liquidpay.jpg" alt="" />
+        </a>
+        <a class="partner__grid-item shadow-md hover:shadow-xl">
+          <img src="./assets/images/partner-ipaymy.jpg" alt="" />
+        </a>
+        <a class="partner__grid-item shadow-md hover:shadow-xl">
+          <img src="./assets/images/partner-uobmighty.jpg" alt="" />
+        </a>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="./assets/custom.js"></script>
+  </body>
+</html>
