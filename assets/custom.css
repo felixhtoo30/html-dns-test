@@ -18,6 +18,13 @@ body {
   margin: auto;
   position: relative;
   z-index: 999;
+  background-color: transparent;
+}
+
+.header--anim {
+  opacity: 0;
+  animation: fade-down 0.5s ease;
+  animation-fill-mode: forwards;
 }
 
 .header__wrapper {
@@ -104,10 +111,22 @@ body {
   margin: 0.6em auto;
 }
 
+.hero__title--anim {
+  opacity: 0;
+  animation: fade-up 1s ease;
+  animation-fill-mode: forwards;
+}
+
 .hero .hero__wrapper .hero__tagline {
   font-size: 0.9em;
   font-family: "Open Sans";
   margin: 0;
+}
+
+.hero__tagline--anim {
+  opacity: 0;
+  animation: fade-up 1s ease 0.5s;
+  animation-fill-mode: forwards;
 }
 
 /* Partner */
